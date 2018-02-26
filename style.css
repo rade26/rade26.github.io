@@ -1,0 +1,280 @@
+
+.menu li>a{
+text-decoration: none;
+color: brown;
+
+}
+.menu li{
+list-style-type: none;
+font-size: 20px;
+display: inline;
+}
+.left{ 
+background-image: url("images/qweqwe.gif") ;
+width: 10%; 
+float: left; 
+height: 95%; 
+} 
+.right{ 
+background-image: url("images/qweqwe.gif");
+transform: rotate(180deg);
+width: 10%; 
+float: left; 
+height: 95%; 
+} 
+.footer{ 
+background-image: url("images/yo.jpg"); 
+text-align: center; 
+width: 100%; 
+} 
+.main{ 
+width: 80%; 
+height: 95%; 
+background-image: url("images/earth-2560x1440-above-space-hd-6408.jpg");
+float: left; 
+text-align: justify; 
+} 
+
+
+section{ 
+width: 100%; 
+margin: 0px auto; 
+display:table; 
+height: 100%; 
+} 
+
+
+html, body{ 
+height: 100%;
+background-image: url("images/yo.jpg");
+font-family:  arial;
+}
+.navigation li>a {
+	text-decoration: none;
+}
+nav>ul>li>a {
+	text-decoration: none;
+	color: white;
+	text-decoration: underline;
+	padding-left: 10px;
+	padding-right: 100px;
+}
+.navigation{ 
+text-align: center; 
+}
+.header{
+	height:150px;
+	background-image: url("images/yo.jpg");
+
+
+	display: block;
+	margin: 0 auto;
+}
+.imgcenter{
+   display: block;
+    margin: 0 auto;
+}
+.text{
+	color: white;
+text-decoration: none;
+}
+.ss{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 20px;
+
+}
+.info{
+	margin-right: 20px;
+	margin-left: 20px
+}
+
+.dws-menu *{
+	margin: 0;
+	padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+	list-style: none;
+}
+.dws-menu > ul{
+	display: flex;
+	justify-content: center;
+}
+.dws-menu > ul li{
+	position: relative;
+	border-right: 1px solid #c7c8ca;
+}
+.dws-menu > ul li:first-child{
+	border-left: 1px solid #b2b3b5;
+}
+.dws-menu > ul li:last-child{
+	border-right: 1px solid #babbbd;
+}
+.dws-menu > ul li > a i.fa{
+	position: absolute;
+	top: 15px;
+	left: 12px;
+	font-size: 18px;
+}
+.dws-menu > ul li a{
+	display: block;
+	padding: 15px 30px 15px 40px;
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform:uppercase;
+	transition: all 0.3s ease;
+}
+.dws-menu li a:hover{
+	color: gray;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+}
+.dws-menu li ul{
+	position: absolute;
+	min-width: 134px;
+	display: none;
+}
+.dws-menu li > ul li{
+	border: 1px solid #c7c8ca;
+}
+.dws-menu li > ul li a{
+	padding: 10px;
+	text-transform: none;
+	background: #000000;
+}
+.dws-menu li > ul li ul{
+	position: absolute;
+	right: -135px;
+	top: 0;
+}
+.dws-menu li:hover > ul{
+	display: block;
+}
+.orgri{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 20px;
+width: 700px;
+}
+.sung{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 100px;
+}
+.Merg{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 100px;
+}
+.Veng{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 100px;
+}
+.Marsg{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 100px;
+}
+.Earthg{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 100px;
+}
+.Jupiterg{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 100px;
+}
+.Saturng{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 100px;
+}
+.Uranusg{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 100px;
+}
+.Neptuneg{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 100px;
+}
+
+.earth{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 20px;
+}
+.uranus{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 20px;
+}
+.ven{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 20px;
+}
+.mars{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 20px;
+}
+.mer{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 20px;
+}
+.neptune{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 20px;
+}
+.sat{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 20px;
+}
+.jup{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 20px;
+}
+.sun{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 20px;
+}
+.ast1{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 20px;
+}
+.ast{
+	text-align: center;
+}
